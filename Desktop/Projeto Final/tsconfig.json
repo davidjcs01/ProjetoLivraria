@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",                     // Pasta de saída dos arquivos compilados
+        "module": "commonjs",                   // Sistema de módulos
+        "target": "es6",                        // Versão do JavaScript de saída
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": ["src/**/*.ts"],                 // Inclui todos os arquivos .ts na pasta src
+    "exclude": ["node_modules", "dist"]         // Exclui node_modules e dist
+}
